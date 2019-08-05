@@ -1,7 +1,6 @@
 <?php
-
-use accueil\index;
-
+require 'accueil/index.php';
+use accueil\index as ladate;
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +10,7 @@ use accueil\index;
     </head>
     <body>
         <?php
-        echo accueil\index::afficheDate()
+        echo ladate::afficheDate();
         ?>
     </body>
 </html>
